@@ -6,15 +6,7 @@ This article explores why Shiny is used so widely in industry and provides a beg
 ## 🚀 Why Industry Uses Shiny
 1. Zero JavaScript. 100% R.
 For teams that already use R for modeling or analysis, Shiny offers a turnkey way to expose results via an interactive UI.
-No need to hire front-end developers. No new tech stack to learn.
-
-You write R code like this:
-
-```
-selectInput("var", "Choose a variable:", names(df))
-plotOutput("hist")
-``
-and it magically becomes a real web interface.
+No need to hire front-end developers. No new tech stack to learn. You write R code like this and it magically becomes a real web interface.
 
 2. Rapid Prototyping for Data Products
 Product managers, clinicians, researchers often need an-easy-to-use application that helps them interact easily with their data.
