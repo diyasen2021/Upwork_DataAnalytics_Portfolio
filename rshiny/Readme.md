@@ -34,10 +34,15 @@ RNASeq analysis across several samples?
 Just wrap it in a Shiny reactive and display the results.
 
 ## Deploying a Shiny App with Docker on an EC2 Instance
-This guide provides step-by-step instructions for deploying a Shiny app using Docker on an EC2 instance.
+Today’s Example: Building a Small Shiny App from Scratch. To make all of this real, let’s build a tiny but powerful Shiny app today.
 
 ## 1. The Shiny App
-The Shiny app is designed to take a CSV file as input and generate multiple regression analyses. It provides an interactive interface for visualizing results and exploring data relationships.
+The example Shiny app here takes a CSV file as input and generates multiple regression analyses. It provides an interactive interface for:
+- uploading datasets
+- selecting dependent & independent variables
+- visualizing correlations
+- running linear regressions
+- exploring fitted values & diagnostic plot
 
 ## 2. Prerequisites
 - An AWS EC2 instance (Ubuntu 20.04 or later recommended).
