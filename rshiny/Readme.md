@@ -98,3 +98,10 @@ Add an inbound rule to allow traffic on port 3838.
 **Step 6: Access the App**
 
 Visit http://your-ec2-ip:3838/myapp in your browser.
+
+## 🧪 What This Shiny App Does
+This Shiny app is a lightweight but powerful multiple linear regression explorer designed for scientists, analysts, and researchers who want to analyze their datasets without writing any code. Once a user uploads a CSV file, the app automatically detects the available columns and lets them choose a target variable and one or more predictor variables. 
+
+With a single click, the app fits a linear regression model and displays everything needed for interpretation: an interactive data preview, the full regression summary, diagnostic plots (residuals and QQ plot), a correlation heatmap to understand relationships between variables, and interactive scatter plots powered by Plotly. 
+
+For life science users, this means they can easily explore gene expression correlations, assay measurements, qPCR results, phenotype vs. feature relationships, or any numeric dataset directly through a simple, intuitive interface—no scripting or statistical coding required.
