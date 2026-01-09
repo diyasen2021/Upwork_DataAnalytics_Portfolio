@@ -46,10 +46,10 @@ The example Shiny app here takes a CSV file as input and generates multiple regr
 
 **This is a simple template that can easily be extended for:
 
-qPCR analysis
-assay intensity correlations
-gene expression modeling
-phenotype vs. biomarker associations**
+- qPCR analysis
+- assay intensity correlations
+- gene expression modeling
+- phenotype vs. biomarker associations**
 ## 2. Prerequisites
 - An AWS EC2 instance (Ubuntu 20.04 or later recommended).
 - Docker installed on the EC2 instance.
